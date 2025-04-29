@@ -1,0 +1,34 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore model weights or large files (if any)
+models/
+*.h5
+*.pth
+*.ckpt
+
+# Ignore config-specific outputs
+*.log
+
+# Ignore output 3D files if you want (optional, but probably not needed here)
+# outputs/
+
+# Ignore environment and package managers
+*.egg-info/
+dist/
+build/
+
+# VSCode editor settings (optional, if you use VSCode)
+.vscode/
