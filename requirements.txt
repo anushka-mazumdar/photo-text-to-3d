@@ -1,0 +1,26 @@
+# Core dependencies
+numpy>=1.20.0
+Pillow>=9.0.0
+trimesh>=3.9.0
+scipy>=1.7.0
+
+# For 3D model processing
+pyglet>=1.5.0  # For visualization with trimesh
+rtree>=1.0.0  # For spatial queries with trimesh
+pyembree>=0.1.0  # For ray-tracing acceleration
+opencv-python>=4.5.0  # For image processing
+
+# For advanced 3D model generation (optional)
+# Uncomment these if you want to use neural network-based approaches
+# torch>=1.9.0
+# torchvision>=0.10.0
+# diffusers>=0.3.0  # For text-to-image models
+# transformers>=4.15.0  # For text processing
+
+# For testing
+pytest>=6.0.0
+pytest-cov>=2.12.0
+
+# Utilities
+tqdm>=4.62.0  # For progress bars
+matplotlib>=3.4.0  # For visualization

@@ -1,0 +1,26 @@
+{
+    "logging": {
+        "level": "INFO",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        "file": "logs/app.log"
+    },
+    "photo_to_3d": {
+        "default_resolution": 128,
+        "max_resolution": 512,
+        "depth_estimation_method": "simple",
+        "smoothing": true,
+        "smoothing_factor": 0.5
+    },
+    "text_to_3d": {
+        "default_resolution": 128,
+        "max_resolution": 512,
+        "model_type": "procedural",
+        "complexity": "medium"
+    },
+    "output": {
+        "default_format": "obj",
+        "default_directory": "models",
+        "auto_clean": false,
+        "compress_output": false
+    }
+}
